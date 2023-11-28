@@ -1,2 +1,8 @@
-Python 3.11.5 (tags/v3.11.5:cce6ba9, Aug 24 2023, 14:38:34) [MSC v.1936 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license()" for more information.
+import myTemperature as t
+
+c = int(input("Enter your temp in C and we will provide the Feh temp"))
+print(c,"celcius is equivlent to", t.CelToFeh(c))
+
+f = int(input("Enter your temp in Feh and we will provide the C temp"))
+print(f,"Farenheit is equivalent to", t.FehToCel(f))
+
